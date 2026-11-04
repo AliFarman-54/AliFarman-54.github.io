@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Dr. Farman Ali</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.65;color:#1a1a1a;background:#f8f9fa}
+    .container{max-width:860px;margin:0 auto;padding:0 20px}
+    header{background:#1e3a5f;color:#fff;padding:28px 0;text-align:center}
+    header h1{font-size:1.9rem;font-weight:600;margin-bottom:4px}
+    header p{font-size:1.05rem;opacity:.9}
+    nav{background:#16304f;padding:12px 0;text-align:center;position:sticky;top:0;z-index:100}
+    nav a{color:#e0e7ff;text-decoration:none;margin:0 14px;font-size:.95rem;font-weight:500}
+    nav a:hover,nav a.active{color:#fff}
+    section{background:#fff;margin:28px 0;padding:36px 32px;border-radius:10px;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+    h2{font-size:1.45rem;color:#1e3a5f;margin-bottom:18px;padding-bottom:8px;border-bottom:2px solid #e8eef5}
+    h3{font-size:1.15rem;color:#2c4a6e;margin:22px 0 10px}
+    p,li{margin-bottom:12px;color:#333}
+    ul{padding-left:22px}
+    footer{text-align:center;padding:30px 20px;color:#666;font-size:.9rem}
+    @media(max-width:600px){header h1{font-size:1.55rem}section{padding:26px 20px}nav a{margin:0 8px;font-size:.88rem}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Dr. Farman Ali</h1>
+    <p>Economist · Researcher · Monitoring & Evaluation Specialist</p>
+  </div>
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html" class="active">About</a>
+  <a href="services.html">Services</a>
+  <a href="publications.html">Publications</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<main class="container">
+  <section>
+    <h2>About</h2>
+    <p>I am a retired Professor of Economics with over four decades of experience in academic leadership, socioeconomic research, and high-level development consultancy.</p>
+    <h3>Education</h3>
+    <p>Ph.D. in Economics, University of East Anglia (UEA), Norwich, England (1989–1992). Doctoral research focused on Models of Household Behaviour in Subsistence Agriculture.</p>
+    <h3>Senior Positions Held</h3>
+    <ul>
+      <li>Director, Institute of Development Studies (IDS), Agricultural University Peshawar</li>
+      <li>Director, Institute of Business and Management Sciences (IBMS)</li>
+      <li>Chief Executive, Prudent Consultants Pvt. Ltd.</li>
+      <li>Senior Researcher, Afghanistan Research and Evaluation Unit (Kabul)</li>
+      <li>Senior Data Analyst, University of Toronto, Canada</li>
+    </ul>
+    <h3>Current Focus</h3>
+    <p>Based in Canada, I provide remote research, monitoring & evaluation, data analysis, proposal writing, and academic support services to organizations and individuals worldwide.</p>
+  </section>
+</main>
+<footer>
+  <div class="container">© 2026 Dr. Farman Ali · farman.ca</div>
+</footer>
+</body>
+</html>
